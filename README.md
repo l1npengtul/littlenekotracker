@@ -1,4 +1,4 @@
-# Little Neko Tracker (LNT, 小さい猫トラカ)
+# Little Neko Tracker (LNT, リトル猫トラッカー)
 A Little Piggy Tracker (LGPT) re-implementation in Rust using Iced and fundsp. 
 
 16 Track, Variable Voice (Per-Platform)
@@ -15,21 +15,28 @@ A Little Piggy Tracker (LGPT) re-implementation in Rust using Iced and fundsp.
 
 ## Planned Features
 - Multiple Synth Engines
- - Subtractive Synthesizer with many OSC types
-  - Standard Waveform
-  - Wavetable
-  - Sampler
-  - Granular
-  - DX21-like 4OP FM
-  - Chiptune (SID/VCR06/etc Emulator)
+    - Subtractive Synthesizer with many OSC types
+      - Standard Waveform
+      - Analog Waveform
+      - Wavetable
+      - Sampler
+      - Granular
+      - DX21-like 4OP FM
+      - Chiptune (SID/NES/SNES/etc Chip Emulation)
+- Sound Effects
+    - Reverb
+    - EQ
+    - Delay
+    - Compressor
+    - Bit Crush
+    - Distortion
 - Song Mode
 - Synth Mode
- - Use the tracker as a polysynth
+    - Use the tracker as a polysynth
 - Wifi/Bluetooth MIDI
 - LGPT/LSDJ Project File Compatibility
 - Chord Tracks
- - Define a track as a Chord Track, be able to write chords directly into the tracker (takes up 2 regular tracks)
-- Sounds Effects
+    - Define a track as a Chord Track, be able to write chords directly into the tracker (takes up 2 regular tracks)
 - Mixer Panel
 - Automations
 - MIDI/Ableton Link support (desktop)
