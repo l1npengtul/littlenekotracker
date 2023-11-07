@@ -1,4 +1,4 @@
-# Little Neko Tracker (LNT, リトル猫トラカー)
+# Little Neko Tracker (LNT, リトル猫トラッカー)
 A Little Piggy Tracker (LGPT) re-implementation in Rust using Iced and fundsp. 
 
 16 Track, Variable Voice (Per-Platform)
