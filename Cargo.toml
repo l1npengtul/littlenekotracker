@@ -1,0 +1,37 @@
+[package]
+name = "littlenekotracker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [
+    "audio/*",
+    "midi/*",
+    "gui/sdl/*",
+    "gui/3ds/*",
+    "input/*"
+]
+
+[features]
+3ds = ["lite", "cooperative_threading", "ctru"]
+new_3ds = ["lite_plus", "cooperative_threading", "ctru"]
+handheld_linux = []
+linux = []
+mac = []
+windows = []
+web = []
+
+lite = []
+lite_plus = []
+pocket = []
+desktop = []
+cooperative_threading = []
+sdl = []
+ctru = []
+
+[dependencies]
+
+[dependencies.iced]
+version = "0.10"

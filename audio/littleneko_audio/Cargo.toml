@@ -1,0 +1,18 @@
+[package]
+name = "littleneko_audio"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+3ds = []
+linux = []
+windows = []
+mac = []
+ios = []
+android = []
+web = []
+sdl = []
+
+[dependencies]
