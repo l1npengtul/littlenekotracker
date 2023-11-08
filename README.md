@@ -4,9 +4,9 @@ A Little Piggy Tracker (LGPT) re-implementation in Rust using Iced and fundsp.
 16 Track, Variable Voice (Per-Platform)
 
 ## Platforms
-- (Planned - High Priority) 3DS/N3DS 
+- (Planned - High Priority) 3DS/N3DS
+- (Planned - High Priority) Desktop (Windows/Mac/Linux)
 - (Planned - Medium Priority) ArkOS/GarlicOS/OnionOS based ARM handheld
-- (Planned - Medium Priority) Desktop (Windows/Mac/Linux)
 - (Planned - Medium Priority) Web
 - (Planned - Low Priority) Retropi based RPi handhelds
 - (Planned - Low Priority) Teensy 
